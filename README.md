@@ -1,5 +1,5 @@
 # JitsiMeet-Theme-with-labels
-Jitsi Meet CSS code that improves usability by labeling navigation buttons
+Jitsi Meet CSS code that improves usability by labeling navigation buttons. This theme also adds home page branding for Roher/Sprague Partners. 
 
 Edit the body.html file using: 
 sudo nano /usr/share/jitsi-meet/body.html

@@ -5,7 +5,7 @@ Edit the body.html file using:
 sudo nano /usr/share/jitsi-meet/body.html
 
 Add the CSS code to enable the theme:
-
+```sh
 <style>
 .welcome .header {
     background-image: linear-gradient(0deg,rgba(255,255,255,.2),rgba(255,255,255,.8)),url(https://www.rohersprague.com/images/90NBroadway_DSC3540.jpg);
@@ -64,6 +64,7 @@ display: flex;}
 /* mobile stuff */
 @media only screen and (max-width: 500px) {
 .welcome .header #enter_room {
+```
     width: 95%!important;
 
 }

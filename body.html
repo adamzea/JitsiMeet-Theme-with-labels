@@ -34,13 +34,19 @@ height: 60px!important; }
     color: #fff;
 }
 
+.welcome-page-settings .toolbox-button {
+ widht: 8vw;
+}
 /* add labels to toolbar */
 .toolbox-button {
-width: 7vw;}
+ max-width: 7vw;
+}
 
 .toolbox-button:after {
 content: attr(aria-label); font-size: 0.7rem;
 line-height: 0.8rem;
+display: block;
+padding-top: 0.25rem;
 }
 
 .toolbox-icon {
@@ -49,9 +55,11 @@ width: 100%; }
 .welcome-page-settings .toolbox-button {
 display: flex;}
 
-.reactions-row .toolbox-button { width: 30%; }
-.reactions-row .toolbox-icon span.emoji { width: 5rem; }
-.reactions-row .toolbox-icon { width: 5rem; }
+/* .reactions-row .toolbox-button { width: 30%; } */
+.reactions-row .toolbox-icon span.emoji { width: 4rem; }
+.reactions-row .toolbox-icon { width: 4rem; }
+.reactions-row .toolbox-button:after {
+        display: block; font-size: 0.6rem; text-align: center;}
 
 /* mobile stuff */
 @media only screen and (max-width: 500px) {
